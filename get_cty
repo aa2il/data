@@ -1,0 +1,12 @@
+#! /bin/csh
+
+# Script to get latest cty files
+# Need to add code to look for latest number in this dir
+
+#wget https://www.country-files.com/cty/download/cty_plist.zip
+#unzip cty_plist.zip
+
+set NUM="3335"
+
+wget https://www.country-files.com/cty/download/${NUM}/cty-${NUM}.zip
+unzip cty-${NUM}.zip
