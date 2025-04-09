@@ -39,7 +39,8 @@ cmd1='wget '+url+'/'+str(nmax)+'/cty-'+str(nmax)+'.zip'
 print('cmd1=',cmd1)
 os.system(cmd1)
 
-cmd2='unzip -u cty-'+str(nmax)+'.zip'
+#cmd2='unzip -u cty-'+str(nmax)+'.zip'
+cmd2='unzip -u cty-'+str(nmax)+'.zip cty.plist'
 print('cmd2=',cmd2)
 os.system(cmd2)
 
